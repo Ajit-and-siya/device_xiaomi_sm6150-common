@@ -90,7 +90,7 @@ PRODUCT_COPY_FILES += \
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-aosp
+    $(LOCAL_PATH)/overlay-corvus
 
 # Overlay-RRO
 PRODUCT_PACKAGES += \
@@ -117,7 +117,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@1.0-impl \
+    android.hardware.sensors@1.0-impl-xiaomi \
     android.hardware.sensors@1.0-service
 
 # Soong namespaces
